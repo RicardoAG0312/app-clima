@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+.hero {
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.capa{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    background-color: black;
+}
+header {
+    font-size: 45px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+    text-transform: uppercase;
+    font-family: 'Anton', sans-serif;
+    color: white;
+    text-shadow: 1px 0 15px black;
+    z-index: 2;
+}
+.padre {
+    width: 400px;
+    min-height: 400px;
+    background-color: #a3bdcaaf;
+    box-shadow: 1px 0 15px white;
+    outline: 3px solid black;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index: 2;
+}
+#nombre-pais {
+    font-size: 30px;
+    width: 100%;
+    padding: 15px 0;
+    text-align: center;
+}
+#temperatura-pais{
+    font-size: 18px;
+    width: 100%;
+    padding: 15px 0;
+    text-align: center;
+}
+#humedad-pais{
+    font-size: 18px;
+    width: 100%;
+    padding: 15px 0;
+    text-align: center;
+}
+#descripcion-pais {
+    font-size: 18px;
+    width: 100%;
+    padding: 15px 0;
+    text-align: center;
+}
+.padre div {
+    width: 100%;
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.padre div .texto{
+    padding: 10px;
+    width: 70%;
+}
+.padre div .enviar{
+    padding: 10px 5px;
+    width: 30%;
+    background-color: #80d997;
+}
+
